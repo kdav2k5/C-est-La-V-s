@@ -1,0 +1,136 @@
+
+body, html{
+height: 100%;
+margin: 0;
+line-height: 1.8em;
+}
+
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        background-color: rgb(177, 74, 218);
+        font-size: 60px;        
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+        color: rgb(209, 157, 36);
+        font-weight: bold;
+    }
+}
+
+.nav {
+    font-weight: bold;
+    font-family: "Brush Script MT", cursive;
+    font-size: 25px;
+
+}
+
+.nav:hover ul{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    -webkit-transition-property: rgb(177, 74, 218);
+    transition-property: rgb(177, 74, 218);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#logo1, #logo2, #logo3, #logo4, #logo5 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+}
+
+#logo1 {
+ 
+  background-image: url("../images/logo.jpg");
+  min-height: 100%;
+  min-width: 100%;
+  background-size: cover;   
+}
+
+#logo2 {
+    background-image: url("../images/restaurant.jpg");
+    min-height: 600px;
+    background-size: cover;
+}
+
+#logo3 {
+    background-image: url("../images/brmenu.jpg");
+    min-height: 700px;
+    min-width: 100%;
+}
+
+#logo4 {
+    background-image: url("../images/breakfastmenu.jpg");
+    min-height: 700px;
+    min-width: 100%;
+}
+#logo5 {
+    background-image: url("../images/logofooter.jpg");
+    min-height: 800px;
+    min-width: 100%;
+}
+
+#breakfast{
+    background-image: url("../images/breakfastmenu.jpg");
+}
+
+#lunch{
+    background-image: url("../images/lunchmenu.jpg");
+    
+}
+
+
+.paratext {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paratext p{
+    text-align: center;
+}
+
+.section-light{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: bold;
+    background-color: rgb(158, 194, 17);
+    color: rgb(236, 232, 232);
+
+}
+
+.section-light, .section-dark, h1{
+    font-family: "Brush Script MT", cursive; 
+}
+
+.section-dark{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(136, 41, 136);
+    color: rgb(209, 157, 36);
+
+}
+
+.section{
+    padding: 80px 50px;
+}
+
+@media(max-width: 568px){
+    #logo1, #logo2, #logo3{
+        background-attachment: scroll;
+    }
+}
